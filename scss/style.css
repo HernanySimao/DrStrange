@@ -1,0 +1,68 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.space {
+  padding-left: 40%;
+}
+
+body {
+  background: url("../assets/strange.jpg") no-repeat;
+  background-position: top;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.multiverso {
+  color: #c71e1e;
+  padding-left: 40px;
+  font-size: 50px;
+}
+
+.strange {
+  color: #fff;
+  font-size: 120px;
+}
+
+.doctor {
+  color: #fff;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.bg-red {
+  margin-top: 20px;
+  background-color: #c71e1e;
+  color: #fff;
+}
+
+.btn-danger {
+  border: 1px solid #c71e1e;
+}
+
+.btn-danger:hover {
+  border: 1px solid #c71e1e;
+  background-color: #c71e1e;
+}
+
+.btn-danger:active {
+  background-color: #c71e1e;
+  border: 1px solid #c71e1e;
+}
+
+h6 {
+  margin-top: 130px;
+}
+
+.icon-info {
+  padding-top: 390px;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+/*# sourceMappingURL=style.css.map */

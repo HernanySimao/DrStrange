@@ -1,0 +1,72 @@
+$red: #c71e1e;
+$white: #fff;
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.space {
+  padding-left: 40%;
+}
+
+body {
+  background: url("../assets/strange.jpg") no-repeat;
+  background-position: top;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.multiverso {
+  color: $red;
+  padding-left: 40px;
+  font-size: 50px;
+}
+
+.strange {
+  color: $white;
+  font-size: 120px;
+}
+
+.doctor {
+  color: $white;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.bg-red {
+  margin-top: 20px;
+  background-color: $red;
+  color: $white;
+}
+
+.btn-danger {
+  border: 1px solid $red;
+  &:hover {
+    border: 1px solid $red;
+    background-color: #c71e1e;
+  }
+  &:active {
+    background-color: #c71e1e;
+    border: 1px solid $red;
+  }
+}
+
+h6 {
+  margin-top: 130px;
+}
+.icon-info {
+  padding-top: 390px;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-logo{
+  width: 10px;
+  height: 10px;
+  border: 1px solid red;
+}
