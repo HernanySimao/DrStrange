@@ -68,26 +68,56 @@ h6 {
 .icon-logo{
   width: 10px;
   height: 10px;
-  border: 1px solid red;
+  
 }
 
  
 
-button .responsiveButtom{
-border: 1px solid red;
-}
 
 @media only screen and (max-width: 375px) {
   .strange{
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .icon-info {
-    padding-top: 1px;
+    padding-top: 0;
+    margin-right: 10px;
   }
+
  .marvel{
-   height: 50px;
-    
+   height: 40px;
  }
+
+ .multiverso{
+   font-size: 40px;
+ }
+
 }
+
+
+
+@media only screen and (max-width: 414px) {
+  
+   
+  .strange{
+    font-size: 60px;
+  }
+
+  .icon-info {
+    padding-top: 60px;
+    margin-right: 10px;
+  }
+
+ .marvel{
+   height: 40px;
+ }
+
+ .multiverso{
+   font-size: 40px;
+ }
+
+  
+}
+
+  
  
